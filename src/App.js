@@ -1,5 +1,6 @@
 import './App.css';
-import UseLayoutEffectHook from './useLayoutEffect/UseLayoutEffectHook';
+import UseContextHook from './useContext/UseContextHook';
+// import UseLayoutEffectHook from './useLayoutEffect/UseLayoutEffectHook';
 // import UseEffectHook from './useEffect/UseEffectHook';
 // import UseRefHook from './useRef/UseRefHook';
 // import UseStateLearning from './useState/UseState'
@@ -12,7 +13,8 @@ function App() {
       {/* <UseReducerHook/> */}
       {/* <UseEffectHook/> */}
       {/* <UseRefHook/> */}
-      <UseLayoutEffectHook/>
+      {/* <UseLayoutEffectHook/> */}
+      <UseContextHook/>
     </div>
   );
 }
